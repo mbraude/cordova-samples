@@ -93,10 +93,11 @@
   <preference name="ShowTitle" value="True" />
   <preference name="InAppBrowserStorageEnabled" value="False" />
   <preference name="SuppressesIncrementalRendering" value="True" />
-  <vs:plugin name="com.phonegap.plugins.facebookconnect" version="0.11.0">
-    <param name="APP_ID" value="1592999164273249" />
-    <param name="APP_NAME" value="TACO" />
-  </vs:plugin>
   <preference name="Fullscreen" value="False" />
-  <vs:plugin name="org.apache.cordova.dialogs" version="0.3.0" />
+  <plugin name="com.phonegap.plugins.facebookconnect" spec="~0.11.0" />
+  <plugin name="org.apache.cordova.dialogs" spec="~0.3.0" />
+  <vs:toolsetVersion>6.3.1</vs:toolsetVersion>
+  <engine name="android" spec="5.2.1" />
+  <engine name="ios" spec="4.2.0" />
+  <engine name="windows" spec="4.4.2" />
 </widget>

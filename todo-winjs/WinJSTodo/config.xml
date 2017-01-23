@@ -89,6 +89,10 @@
   <platform name="wp8">
     <splash src="res/screens/wp8/SplashScreenImage.jpg" width="480" height="800" />
   </platform>
-  <vs:plugin name="com.microsoft.azure-mobile-services" version="1.2.8" />
-  <vs:plugin name="org.apache.cordova.geolocation" version="0.3.12" />
+  <plugin name="com.microsoft.azure-mobile-services" spec="~1.2.8" />
+  <plugin name="org.apache.cordova.geolocation" spec="~0.3.12" />
+  <vs:toolsetVersion>6.3.1</vs:toolsetVersion>
+  <engine name="android" spec="5.2.1" />
+  <engine name="ios" spec="4.2.0" />
+  <engine name="windows" spec="4.4.2" />
 </widget>

@@ -12,7 +12,6 @@
   <platform name="ios">
     <hook type="before_compile" src="hooks/hook-symlink-fix.js" />
   </platform>
-  
   <!-- Begin remainder of config.xml -->
   <name>HooksSample</name>
   <description>A project that demos Cordova hooks being added to a project using a config.xml reference and a plugin.</description>
@@ -105,8 +104,6 @@
   <preference name="ShowTitle" value="True" />
   <preference name="InAppBrowserStorageEnabled" value="False" />
   <preference name="SuppressesIncrementalRendering" value="True" />
-  <vs:plugin name="cordova-plugin-res-native" version="0.0.1" />
-
   <access origin="*" />
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
@@ -114,11 +111,13 @@
   <allow-intent href="sms:*" />
   <allow-intent href="mailto:*" />
   <allow-intent href="geo:*" />
-
   <!-- These <plugin> elements only work in Cordova 5.0.0+ and will install the following plugins even if executed from the command line. -->
   <plugin name="cordova-plugin-whitelist" version="1.0.0" />
   <plugin name="cordova-plugin-inappbrowser" version="1.0.0" />
-
   <!-- Use security patched version of Cordova Android platform for 5.0.0 -->
-  <engine name="android" spec="4.0.2" />
+  <engine name="android" spec="5.2.1" />
+  <plugin name="cordova-plugin-res-native" spec="~0.0.1" />
+  <vs:toolsetVersion>6.3.1</vs:toolsetVersion>
+  <engine name="ios" spec="4.2.0" />
+  <engine name="windows" spec="4.4.2" />
 </widget>
